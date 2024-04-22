@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar{
+    width: 0px;
+}
+
+::selection{
+    color: white;
+    background: #F60B60;
+}
+
+
+.nav{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background-color: #F60B60;
+}
+
+.container{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.header{
+    width: 100%;
+    height: 78px;
+    background-color: white;
+    display: flex;
+}
+
+.header img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+.title{
+    font-size: 20px;
+    font-family: system-ui;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-left: 14px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+    margin-top: 16px;
+    margin-left: 8px;
+}
+
+.nana{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    font-family: system-ui;
+    margin-top: 30px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card{
+    background: white;
+    position: relative;
+    flex: 1;
+    max-width: 286px;
+    height: 122px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.num{
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: system-ui;
+    padding-top: 44px;
+    padding-left: 35px;
+}
+
+.icon{
+    float: right;
+    width: 42px;
+    height: 42px;
+    padding-top: 42px;
+    padding-right: 35px;
+}
+
+.navigate{
+    width: 100%;
+    height: 480px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-top: 60px;
+}
+
+.navigate::-webkit-scrollbar{
+    width: 2px;
+    background-color: black;
+}
+
+@media (max-width:800px) {
+    .card{
+        flex: 100%;
+        max-width: 600px;
+    }
+}
+
+.dashF{
+    width: 90%;
+    height: 41px;
+    background-color: white;
+    float: right;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+}
+
+
+#dash{
+    width: 32px;
+    height: 32px;
+    padding-top: 5px;
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+.Mt{
+    color: #F60B60;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-left: 22px;
+    font-family: system-ui;
+    cursor: pointer;
+}
+
+.dashS{
+    width: 90%;
+    height: 41px;
+    background-color: transparent;
+    float: right;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+}
+
+.Mts{
+    color: white;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-left: 22px;
+    font-family: system-ui;
+    cursor: pointer;
+}
+
+
+/*addclient*/
+
+.add{
+    width: 70%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.add h1{
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.form td{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.textbox{
+    width: 100%;
+    text-align: right;
+}
+
+.textbox div{
+    width: 100%;
+    padding: 12px;
+}
+
+.textbox div input,textarea{
+    width: 100%;
+    direction: rtl;
+    resize: none;
+    outline: none;
+    border: 0;
+    /* height: 30px; */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9005d1a;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.textbox textarea{
+    height: 200px;
+}
+
+#date{
+    font-size: 12px;
+}
+
+input::-webkit-datetime-edit-day-field:focus,
+input::-webkit-datetime-edit-month-field:focus,
+input::-webkit-datetime-edit-year-field:focus {
+    background-color: #F60B60;
+    color: white;
+    outline: none;
+}
+
+.form label{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.save,.pdf{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    width: 40%;
+    background-color: #f60b60;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mother{
+    display: flex;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#can{
+    width: 100%;
+    display: block;
+    height: 200px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}

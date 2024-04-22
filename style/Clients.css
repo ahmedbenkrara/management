@@ -1,0 +1,202 @@
+.clsearch{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.responsive{
+    width: 95%;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+}
+
+.table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: black;
+    margin-bottom:20px;
+}
+
+.table tr{
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+.table th, .table td{
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+    max-width: 250px;
+    word-break: break-word;
+}
+
+.table thead{
+    background-color: #F60B60;
+    color: white;
+}
+
+#tbody tr:hover{
+    background-color: #f5f5f5;
+    transform: scale(1.02);
+}
+
+.table thead tr{
+    font-size: 18px;
+}
+
+.edit , .delete{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.edit{
+    background-color: #009aff;
+}
+
+.delete{
+    background-color: red;
+}
+
+.paginationjs {
+    line-height: 1.6;
+    font-family: Marmelad,"Lucida Grande",Arial,"Hiragino Sans GB",Georgia,sans-serif;
+    font-size: 14px;
+    box-sizing: initial;
+}
+
+.paginationjs .paginationjs-pages {
+    float: left;
+}
+
+.paginationjs .paginationjs-pages ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.paginationjs .paginationjs-pages li:first-child, .paginationjs .paginationjs-pages li:first-child>a {
+    border-radius: 3px 0 0 3px;
+}
+
+.paginationjs .paginationjs-pages li {
+    float: left;
+    border: 1px solid #aaa;
+    border-right: none;
+    list-style: none;
+}
+
+.paginationjs .paginationjs-pages li.active {
+    border: none;
+}
+
+.paginationjs .paginationjs-pages li>a {
+    min-width: 44px;
+    height: 31px;
+    line-height: 31px;
+    display: block;
+    background: #fff;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.paginationjs .paginationjs-pages li>a:hover{
+    background: rgb(197, 194, 194);
+}
+
+.paginationjs .paginationjs-pages li:last-child {
+    border-right: 1px solid #aaa;
+    border-radius: 0 3px 3px 0;
+}
+
+.paginationjs .paginationjs-pages li {
+    float: left;
+    border: 1px solid #aaa;
+    border-right: none;
+    list-style: none;
+}
+
+.paginationjs .paginationjs-pages li.active>a {
+    height: 33px;
+    line-height: 33px;
+    background: #f60b60;
+    color: white;
+}
+
+.paginationjs:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.select{
+    margin-bottom: 20px;
+}
+
+.select select{
+    background-color: rgb(246 11 96);
+    outline: none;
+    border: none;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+#ref{
+    background-color: #009aff;
+    outline: none;
+    border: none;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    padding-bottom: 3px;
+    cursor: pointer;
+    color: white;
+    float: right;
+    text-align: center;
+}
+
+#ref div{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+#ref img{
+    width: 20px;
+    height: 20px;
+    margin-left: 13px;
+    transition: 2s ;
+}
+
+#ref:hover img{
+    transform: rotate(360deg);
+    
+}
